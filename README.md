@@ -55,3 +55,27 @@ PHP >= 7.0
 Composer
 
 Servidor web local (Apache, Nginx ou o embutido do PHP)
+
+## O que é a arquitetura MVC?
+
+**MVC** é um padrão de arquitetura de software que divide uma aplicação em três partes principais:
+
+. **Model (Modelo):** gerencia os dados e a lógica de negócio. É onde ficam as interações com o banco de dados.  
+. **View (Visão):** responsável por exibir a interface com o usuário (HTML, formulários, tabelas etc).  
+. **Controller (Controlador):** recebe as requisições do usuário, processa os dados com o modelo e escolhe a visão apropriada para mostrar.  
+
+Esse padrão ajuda a organizar o código, separando responsabilidades e facilitando a manutenção.
+
+### Vantagens do uso de MVC
+
+**Organização e clareza no projeto**
+Cada camada tem sua função bem definida, o que evita código confuso ou misturado.
+
+**Facilidade para manutenção e testes**
+Com responsabilidades separadas, fica mais fácil encontrar erros ou modificar partes do sistema sem quebrar tudo.
+
+**Reutilização de código**
+Você pode reaproveitar modelos e visões em várias partes do sistema sem duplicação.
+
+**Escalabilidade**
+Estruturas bem definidas facilitam a expansão do sistema no futuro.
